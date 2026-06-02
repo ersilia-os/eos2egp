@@ -1,1 +1,57 @@
 name,type,direction,description
+picolinic_acid,integer,high,Presence of picolinic acid (pyridine-2-carboxylic acid) chelating substructure
+picolinic_acid_n_oxide,integer,high,Presence of picolinic acid N-oxide chelating substructure
+8_hydroxyquinoline,integer,high,Presence of 8-hydroxyquinoline chelating substructure
+8_hydroxy_5_azaquinoline,integer,high,Presence of 8-hydroxy-5-azaquinoline chelating substructure
+hydroxyquinoline,integer,high,Presence of hydroxyquinoline (non-8-position) chelating substructure
+2_mercaptoquinoline,integer,high,Presence of 2-mercaptoquinoline (thiol quinoline) chelating substructure
+quinoline_2_carboxylic_acid,integer,high,Presence of quinoline-2-carboxylic acid chelating substructure
+diaminohydroxypyrimidine,integer,high,Presence of 2-4-diaminopyrimidine-6-ol chelating substructure
+mercapto_hydroxypyrimidine,integer,high,Presence of 2-mercapto-4-hydroxypyrimidine chelating substructure
+hydroxy_mercaptopyrimidine,integer,high,Presence of 2-hydroxy-4-mercaptopyrimidine chelating substructure
+dimethyl_mercaptopyrimidine,integer,high,Presence of 4-6-dimethyl-2-mercaptopyrimidine chelating substructure
+dialkyl_mercaptopyrimidine,integer,high,Presence of 4-6-dialkyl-2-mercaptopyrimidine chelating substructure (generic)
+dihydroxy_methylpyrimidine,integer,high,Presence of 2-4-dihydroxy-6-methylpyrimidine chelating substructure
+dihydroxy_alkylpyrimidine,integer,high,Presence of 2-4-dihydroxy-6-alkylpyrimidine chelating substructure (generic)
+adenine,integer,high,Presence of adenine chelating substructure
+aminopurine,integer,high,Presence of aminopurine chelating substructure (generic adenine variant)
+methyl_hydroxypyrimidine,integer,high,Presence of 2-methyl-4-hydroxypyrimidine chelating substructure
+alkyl_hydroxypyrimidine,integer,high,Presence of 2-alkyl-4-hydroxypyrimidine chelating substructure (generic)
+3_hydroxypyranone,integer,high,Presence of 3-hydroxy-4H-pyran-4-one (kojic acid type) chelating substructure
+3_hydroxythiopyranone,integer,high,Presence of 3-hydroxy-4H-thiopyran-4-thione chelating substructure
+5_hydroxypyranone,integer,high,Presence of 5-hydroxy-4H-pyran-4-one (regioisomeric hydroxypyranone) chelating substructure
+n_hydroxypyridinone,integer,high,Presence of N-hydroxy-2(1H)-pyridinone chelating substructure
+n_hydroxypyridinthione,integer,high,Presence of N-hydroxy-2(1H)-pyridinthione chelating substructure
+3_4_hopo_c2_substituted,integer,high,Presence of C2-substituted 3-hydroxy-4-pyridinone (3-4-HOPO) chelating substructure
+3_4_hopo,integer,high,Presence of 3-hydroxy-4-pyridinone (3-4-HOPO) chelating substructure
+3_4_hopo_n_substituted,integer,high,Presence of N-substituted 3-hydroxy-4-pyridinone (3-4-HOPO) chelating substructure
+3_4_hopto_disubstituted,integer,high,Presence of disubstituted 3-hydroxy-4-pyridinthione (3-4-HOPTO) chelating substructure
+3_4_hopto,integer,high,Presence of 3-hydroxy-4-pyridinthione (3-4-HOPTO) chelating substructure
+3_4_hopto_n_substituted,integer,high,Presence of N-substituted 3-hydroxy-4-pyridinthione (3-4-HOPTO) chelating substructure
+salicylic_acid,integer,high,Presence of salicylic acid (2-hydroxyphenylcarboxylic acid) chelating substructure
+salicylamide,integer,high,Presence of salicylamide (2-hydroxybenzamide) chelating substructure
+hydroxamic_acid,integer,high,Presence of hydroxamic acid chelating substructure
+n_substituted_hydroxamic_acid,integer,high,Presence of N-substituted hydroxamic acid chelating substructure
+pyrrole_2_carboxylic_acid,integer,high,Presence of pyrrole-2-carboxylic acid (N-H) chelating substructure
+pyrrole_2_carboxylic_acid_n_free,integer,high,Presence of pyrrole-2-carboxylic acid (N-unsubstituted) chelating substructure
+bis_picolylamine,integer,high,Presence of bis(2-pyridylmethyl)amine chelating substructure
+n_alkyl_bis_picolylamine,integer,high,Presence of N-alkyl bis(2-pyridylmethyl)amine chelating substructure
+tacn,integer,high,Presence of 1-4-7-triazacyclononane (TACN) chelating substructure
+n_substituted_tacn,integer,high,Presence of N-substituted 1-4-7-triazacyclononane (TACN) chelating substructure
+anthraquinone,integer,high,Presence of hydroxyanthraquinone chelating substructure
+bipyridyl_diol,integer,high,Presence of 2-2-bipyridyl diol chelating substructure
+phenanthroline,integer,high,Presence of 1-10-phenanthroline chelating substructure
+catechol,integer,high,Presence of catechol (1-2-dihydroxybenzene) chelating substructure
+catechol_ether,integer,high,Presence of catechol mono-ether chelating substructure
+tropolone,integer,high,Presence of tropolone (2-hydroxy-2-4-6-cycloheptatrien-1-one) chelating substructure
+naphthalene_1_2_diol,integer,high,Presence of naphthalene-1-2-diol chelating substructure
+naphthalene_2_3_diol,integer,high,Presence of naphthalene-2-3-diol chelating substructure
+amino_catechol_carboxylic_acid,integer,high,Presence of amino catechol carboxylic acid chelating substructure
+protocatechuic_acid,integer,high,Presence of protocatechuic acid (3-4-dihydroxybenzoic acid) chelating substructure
+2_hydroxyphenylbenzoxazole,integer,high,Presence of 2-(2-hydroxyphenyl)benzoxazole chelating substructure
+2_hydroxyphenylbenzothiazole,integer,high,Presence of 2-(2-hydroxyphenyl)benzothiazole chelating substructure
+sulfonamide,integer,high,Presence of arylsulfonamide chelating substructure
+sulfonamide_n_substituted,integer,high,Presence of N-substituted arylsulfonamide chelating substructure (generic)
+beta_diketone,integer,high,Presence of beta-diketone (1-3-diketone) chelating substructure
+beta_diketone_generic,integer,high,Presence of beta-diketone generic (acetylacetone-type) chelating substructure
+n_hits,integer,high,Total number of chelating substructures matched out of 55
