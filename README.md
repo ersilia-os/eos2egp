@@ -2,8 +2,7 @@
 
 The Chelator Rules, defined by Agrawal et al. (2010) and implemented as part of the ChemFH package, check a molecule against 55 SMARTS patterns representing chelating functional groups that target metalloproteinases. Chelating groups covered include picolinic acids, hydroxyquinolines, hydroxypyrimidines, hydroxypyranones, 3,4-HOPO and 3,4-HOPTO derivatives, salicylic acids, catechols, sulfonamides, beta-diketones, and others. The model returns a binary flag for each of the 55 substructures and the total number of matched substructures.
 
-This model was incorporated on 2026-06-02.
-
+This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
 ## Information
 ### Identifiers
@@ -44,12 +43,19 @@ _10 of 56 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2egp](https://hub.docker.com/r/ersiliaos/eos2egp)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `514`
+- **Image Size (Mb):** `529.91`
 
+**Computational Performance (seconds):**
+- 10 inputs: `27.19`
+- 100 inputs: `19.11`
+- 10000 inputs: `33.42`
 
 ### References
 - **Source Code**: [https://github.com/antwiser/ChemFH](https://github.com/antwiser/ChemFH)
