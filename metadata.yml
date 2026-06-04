@@ -1,6 +1,6 @@
 Identifier: eos2egp
 Slug: chelating-groups
-Status: In progress
+Status: Ready
 Title: Chelator fragment identification
 Description: The Chelator Rules, defined by Agrawal et al. (2010) and 
   implemented as part of the ChemFH package, check a molecule against 55 SMARTS 
@@ -38,6 +38,18 @@ Source Code: https://github.com/antwiser/ChemFH
 License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2026-06-02'
+Last Packaging Date: '2026-06-04'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos2egp
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 514.0
+Image Size: 529.91
+Computational Performance 1: 27.19
+Computational Performance 2: 19.98
+Computational Performance 3: 19.11
+Computational Performance 4: 20.89
+Computational Performance 5: 33.42
