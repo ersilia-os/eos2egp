@@ -1,6 +1,6 @@
 # Chelator fragment identification
 
-The Chelator Rules, defined by Agrawal et al. (2010) and implemented as part of the ChemFH package, check a molecule against 55 SMARTS patterns representing chelating functional groups that target metalloproteinases. Chelating groups covered include picolinic acids, hydroxyquinolines, hydroxypyrimidines, hydroxypyranones, 3,4-HOPO and 3,4-HOPTO derivatives, salicylic acids, catechols, sulfonamides, beta-diketones, and others. The model returns a binary flag for each of the 55 substructures and the total number of matched substructures.
+Checks a molecule against 55 SMARTS patterns describing chelating groups known to sequester metal ions, returning a flag for each and a total count. Chelators are a recurring source of false positives in screening, since binding the catalytic metal of a metalloprotein produces apparent inhibition of almost any such target. The rules derive from work by Agrawal and colleagues and are implemented within ChemFH. Matching is purely substructural and does not confirm that chelation occurs under assay conditions.
 
 This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 ### Output
 - **Output Dimension:** `56`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Binary indicators (1 = substructure present, 0 = absent) and total number of hits (n_hits).
+- **Interpretation:** Binary flags for 55 chelating substructures and the total number of matches.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
