@@ -1,6 +1,6 @@
 # Chelator fragment identification
 
-Checks a molecule against 55 SMARTS patterns describing chelating groups known to sequester metal ions, returning a flag for each and a total count. Chelators are a recurring source of false positives in screening, since binding the catalytic metal of a metalloprotein produces apparent inhibition of almost any such target. The rules derive from work by Agrawal and colleagues and are implemented within ChemFH. Matching is purely substructural and does not confirm that chelation occurs under assay conditions.
+Checks a molecule against 55 SMARTS patterns describing chelating groups that bind metal ions, among them picolinic acids, hydroxyquinolines, hydroxypyrimidines, hydroxypyranones, HOPO and HOPTO derivatives, salicylic acids, catechols, sulfonamides and beta-diketones, and returns a flag for each plus a total count. The patterns codify the chelator fragment libraries of Agrawal and colleagues, screened against three matrix metalloproteinases and anthrax lethal factor, and ship with ChemFH as a frequent-hitter alert. Matching is substructural and does not prove chelation occurs in an assay.
 
 This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
 
