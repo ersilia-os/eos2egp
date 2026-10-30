@@ -2,14 +2,14 @@ Identifier: eos2egp
 Slug: chelating-groups
 Status: Ready
 Title: Chelator fragment identification
-Description: Checks a molecule against 55 SMARTS patterns describing chelating groups
-  that bind metal ions, among them picolinic acids, hydroxyquinolines, hydroxypyrimidines,
-  hydroxypyranones, HOPO and HOPTO derivatives, salicylic acids, catechols, sulfonamides
-  and beta-diketones, and returns a flag for each plus a total count. The patterns
-  codify the chelator fragment libraries of Agrawal and colleagues, screened against
-  three matrix metalloproteinases and anthrax lethal factor, and ship with ChemFH
-  as a frequent-hitter alert. Matching is substructural and does not prove chelation
-  occurs in an assay.
+Description: Checks a molecule against 55 SMARTS patterns describing chelating 
+  groups that bind metal ions, among them picolinic acids, hydroxyquinolines, 
+  hydroxypyrimidines, hydroxypyranones, HOPO and HOPTO derivatives, salicylic 
+  acids, catechols, sulfonamides and beta-diketones, and returns a flag for each
+  plus a total count. The patterns codify the chelator fragment libraries of 
+  Agrawal and colleagues, screened against three matrix metalloproteinases and 
+  anthrax lethal factor, and ship with ChemFH as a frequent-hitter alert. 
+  Matching is substructural and does not prove chelation occurs in an assay.
 Deployment:
   - Local
 Source: Local
@@ -23,8 +23,8 @@ Output:
   - Value
 Output Dimension: 56
 Output Consistency: Fixed
-Interpretation: Binary flags for 55 chelating substructures and the total number of
-  matches.
+Interpretation: Binary flags for 55 chelating substructures and the total number
+  of matches.
 Tag:
   - Frequent hitter
 Biomedical Area:
@@ -39,7 +39,7 @@ License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2026-06-02'
 Last Packaging Date: '2026-06-04'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2egp
 Docker Architecture:
