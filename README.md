@@ -2,7 +2,8 @@
 
 Checks a molecule against 55 SMARTS patterns describing chelating groups that bind metal ions, among them picolinic acids, hydroxyquinolines, hydroxypyrimidines, hydroxypyranones, HOPO and HOPTO derivatives, salicylic acids, catechols, sulfonamides and beta-diketones, and returns a flag for each plus a total count. The patterns codify the chelator fragment libraries of Agrawal and colleagues, screened against three matrix metalloproteinases and anthrax lethal factor, and ship with ChemFH as a frequent-hitter alert. Matching is substructural and does not prove chelation occurs in an assay.
 
-This model was incorporated on 2026-06-02.Last packaged on 2026-06-04.
+This model was incorporated on 2026-06-02.
+Last packaged on 2026-06-04.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 56 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2egp](https://hub.docker.com/r/ersiliaos/eos2egp)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2egp_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2egp_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
