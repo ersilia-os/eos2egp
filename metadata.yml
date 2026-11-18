@@ -39,7 +39,7 @@ License: MIT
 Contributor: GemmaTuron
 Incorporation Date: '2026-06-02'
 Last Packaging Date: '2026-06-04'
-Release: v1.0.1
+Release: v1.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2egp.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2egp
 Docker Architecture:
